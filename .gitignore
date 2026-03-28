@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+
+# Vector store (large, regenerated via ingest.py)
+chroma_db/
+
+# PDF (large binary, not redistributable)
+*.pdf
+
+# Reports subfolder (local analysis only)
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test scripts and results
+/run_tests.py
+/run_tests2.py
+/cross_verify.py
+tests/
+
+# Claude settings
+.claude/
+
+# macOS
+.DS_Store
