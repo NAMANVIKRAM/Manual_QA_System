@@ -555,13 +555,16 @@ def chat(user_message: str, history: list) -> tuple:
 # ---------------------------------------------------------------------------
 
 EXAMPLE_QUERIES = [
+    "What is the purpose of the NASA Systems Engineering Handbook?",
     "What is a Technology Readiness Level and how is TRL 6 defined?",
     "What are the entry and exit criteria for PDR?",
     "What is the difference between verification and validation?",
-    "How does the Vee model relate to the system lifecycle?",
-    "What happens at KDP-C?",
-    "What should a System Requirements Review checklist include?",
-    "How does the verification process relate to the system design process?",
+    "List all 17 SE processes defined in the Systems Engineering Engine.",
+    "What happens at a KDP and who makes the decision?",
+    "How does Technical Risk Management feed into the Decision Analysis process?",
+    "What is the role of HSI in the SE process?",
+    "Which lifecycle reviews are conducted between Phase B and Phase C?",
+    "How does Configuration Management interact with Interface Management?",
 ]
 
 _provider_label = {
